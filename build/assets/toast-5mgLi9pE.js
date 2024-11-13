@@ -1,0 +1,1 @@
+import{V as i}from"./app-DmIf2hag.js";const e=i({items:[],duration:6e3,add(t){this.items.unshift({key:Symbol(),...t})},setDuration(t){this.duration=t},remove(t){setTimeout(()=>{this.items.splice(t,1),this.setDuration(6e3)},this.duration)},reset(){this.items=[]}});export{e as t};
